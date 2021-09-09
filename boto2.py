@@ -1,5 +1,7 @@
 import boto3
-import re
+import re #regex?
+
+#Checks the health of the clients
 
 ecs_client = boto3.client('ecs', 'us-east-1')
 

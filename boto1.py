@@ -1,5 +1,7 @@
 import boto3
 
+#Instance Tags 
+
 ec2_client = boto3.client('ec2')
 
 # describe_instances()
